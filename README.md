@@ -43,7 +43,7 @@ Don't worry if this doesn't make sense at the beginning.
 ## 0. Pull config files
 pull config files from this repository.
 
-    git clone "https://github.com/chsclarke/WordpressOnCloud.git"
+    git clone "https://github.com/Alexrubiolv/kubernetes-WP.git"
 
 ## 1. Mysql Setup
 
