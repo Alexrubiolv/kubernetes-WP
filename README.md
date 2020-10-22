@@ -2,8 +2,6 @@
 The purpose of this guide is a step-by-step explanation of how to create an enterprise grade, scalable, Wordpress website on google cloud. I will explain how to configure and host the site as well as how to scale the node count when needed.
 
 ## Pre-requisites
-Sign up for the free trail of google cloud [here](https://cloud.google.com/free/)
-
 Initialize a Kubernetes cluster:
 * go to your cloud dashboard, search for `Kubernetes Clusters`
 * click `Create Cluster` and follow the defaults.
@@ -13,8 +11,6 @@ Once created, open a Google Cloud shell by going back to your  `Kubernetes Clust
 You are ready to go!
 
 ## Notes
-Credit to [groovemonkey](https://github.com/groovemonkey) for some of his explanations on GC specific kubernetes deployments.
-
 Check out the Wordpress docker documentation [here](https://hub.docker.com/_/wordpress/)
 
 Pay attention to:
@@ -25,8 +21,6 @@ Pay attention to:
 
 ### Infrastructure Diagram:
 On the left is a traditional diagram for this 3-tier web application. On the right, you see how each part of that infrastructure maps to kubernetes concepts.
-
-Don't worry if this doesn't make sense at the beginning.
 
     Some config data            (k8s ConfigMaps and Secrets)
 
